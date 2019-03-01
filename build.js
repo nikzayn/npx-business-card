@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('               Nikhil Vaidyar'),
   handle: chalk.white('Doing stuff in ReactJS|GO|ReactNative|Vue|NodeJS'),
-  work: chalk.white('Software Developer at Yoghurt'),
+  work: chalk.white('Data Analytics - Intern at EXL Services'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('nikhilvaidyar'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~zaynian'),
   github: chalk.gray('https://github.com/') + chalk.green('nikzayn'),
