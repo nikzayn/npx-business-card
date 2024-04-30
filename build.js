@@ -16,7 +16,7 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('Nikhil Vaidyar'),
-  handle: chalk.white(`Golang | Docker | Kubernetes | MongoDB | Apache-Kafka | Helm | Kibana, Grafana, Prometheus`),
+  handle: chalk.white('Golang | Docker | Kubernetes | MongoDB | Apache-Kafka | Helm | Kibana, Grafana | Prometheus'),
   work: chalk.white('Software Engineer - Victoria Secret'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('nikhilvaidyar'),
   github: chalk.gray('https://github.com/') + chalk.green('nikzayn'),
