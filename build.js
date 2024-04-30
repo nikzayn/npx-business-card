@@ -15,11 +15,8 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Nikhil Vaidyar'),
-  handle: chalk.white(`Maintaining consistency. Period!!. Jokes apart, I have experience of 3+ years in the 
-                       industry of both retail and healthcare area. Currently delving more into designing
-                       scalable systems and cloud-native tools. Skills: Golang, Docker, Kubernetes, 
-                       MongoDB, Apache-Kafka, Helm, Kibana, Grafana, Prometheus, etc.`),
+  name: chalk.white('Nikhil Vaidyar'),
+  handle: chalk.white(`Golang | Docker | Kubernetes | MongoDB | Apache-Kafka | Helm | Kibana, Grafana, Prometheus`),
   work: chalk.white('Software Engineer - Victoria Secret'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('nikhilvaidyar'),
   github: chalk.gray('https://github.com/') + chalk.green('nikzayn'),
@@ -37,7 +34,6 @@ const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
-const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const carding = `${data.labelCard}  ${data.npx}`
@@ -47,7 +43,6 @@ const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
                twittering + newline + // data.labelTwitter + data.twitter
-               npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + newline + // data.labelLinkedIn + data.linkedin
                carding // data.labelCard + data.npx
