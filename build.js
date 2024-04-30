@@ -16,9 +16,10 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('               Nikhil Vaidyar'),
-  handle: chalk.white(`Maintaining consistency. Period!!. Jokes apart, I have experience of 3+ years in the industry of both retail and healthcare area. 
-                      Currently delving more into designing scalable systems and cloud-native tools. Skills: Golang, Docker, Kubernetes, MongoDB, Apache-Kafka, 
-                      Helm, Kibana, Grafana, Prometheus, etc.`),
+  handle: chalk.white(`Maintaining consistency. Period!!. Jokes apart, I have experience of 3+ years in the 
+                       industry of both retail and healthcare area. Currently delving more into designing
+                       scalable systems and cloud-native tools. Skills: Golang, Docker, Kubernetes, 
+                       MongoDB, Apache-Kafka, Helm, Kibana, Grafana, Prometheus, etc.`),
   work: chalk.white('Software Engineer - Victoria Secret'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('nikhilvaidyar'),
   github: chalk.gray('https://github.com/') + chalk.green('nikzayn'),
@@ -26,7 +27,6 @@ const data = {
   npx: chalk.red('npx') + ' ' + chalk.white('nikhilvaidyar'),
   labelWork: chalk.white.bold('       Work:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
-  labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelCard: chalk.white.bold('       Card:')
