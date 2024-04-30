@@ -16,10 +16,11 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('               Nikhil Vaidyar'),
-  handle: chalk.white('Doing stuff in ReactJS|GO|ReactNative|Vue|NodeJS'),
-  work: chalk.white('Data Analytics - Intern at EXL Services'),
+  handle: chalk.white(`Maintaining consistency. Period!!. Jokes apart, I have experience of 3+ years in the industry of both retail and healthcare area. 
+                      Currently delving more into designing scalable systems and cloud-native tools. Skills: Golang, Docker, Kubernetes, MongoDB, Apache-Kafka, 
+                      Helm, Kibana, Grafana, Prometheus, etc.`),
+  work: chalk.white('Software Engineer - Victoria Secret'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('nikhilvaidyar'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~zaynian'),
   github: chalk.gray('https://github.com/') + chalk.green('nikzayn'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('nikhil-vaidyar-2ab005124'),
   npx: chalk.red('npx') + ' ' + chalk.white('nikhilvaidyar'),
