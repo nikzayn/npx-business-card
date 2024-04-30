@@ -1,6 +1,6 @@
 {
   "name": "nikhilvaidyar",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A personal card for Nikhil Vaidyar (@nikhilvaidyar)",
   "main": "/bin/card.js",
   "bin": {
